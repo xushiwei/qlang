@@ -1,4 +1,4 @@
-module github.com/qiniu/qlang
+module github.com/xushiwei/qlang
 
 go 1.14
 

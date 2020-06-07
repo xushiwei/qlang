@@ -8,8 +8,8 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/qiniu/qlang/exec"
 	"github.com/qiniu/text/tpl/interpreter"
+	"github.com/xushiwei/qlang/exec"
 )
 
 // -----------------------------------------------------------------------------

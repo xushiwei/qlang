@@ -7,12 +7,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/qiniu/qlang"
-	"github.com/qiniu/qlang/lib/terminal"
+	"github.com/xushiwei/qlang"
+	"github.com/xushiwei/qlang/lib/terminal"
 
-	qipt "github.com/qiniu/qlang/cl/interpreter"
-	qall "github.com/qiniu/qlang/lib/qlang.all"
-	qspec "github.com/qiniu/qlang/spec"
+	qipt "github.com/xushiwei/qlang/cl/interpreter"
+	qall "github.com/xushiwei/qlang/lib/qlang.all"
+	qspec "github.com/xushiwei/qlang/spec"
 )
 
 var (

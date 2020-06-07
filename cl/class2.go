@@ -3,9 +3,9 @@ package qlang
 import (
 	"errors"
 
-	"github.com/qiniu/qlang/exec"
 	ipt "github.com/qiniu/text/tpl/interpreter"
 	"github.com/qiniu/text/tpl/interpreter.util"
+	"github.com/xushiwei/qlang/exec"
 )
 
 // -----------------------------------------------------------------------------

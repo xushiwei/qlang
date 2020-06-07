@@ -20,7 +20,7 @@ func init() {
 // Copyright shows qlang copyright information.
 //
 func Copyright() {
-	fmt.Printf("Q-language - http://github.com/qiniu/qlang, version qlang-%s %s/%s\n", version, runtime.GOOS, runtime.GOARCH)
+	fmt.Printf("Q-language - http://github.com/xushiwei/qlang, version qlang-%s %s/%s\n", version, runtime.GOOS, runtime.GOARCH)
 	fmt.Println("Copyright (C) 2015 Qiniu.com - Shanghai Qiniu Information Technologies Co., Ltd.")
 }
 

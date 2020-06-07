@@ -1,6 +1,6 @@
 package qlang
 
 import (
-	_ "github.com/qiniu/qlang/cl"
-	_ "github.com/qiniu/qlang/lib/qlang.all"
+	_ "github.com/xushiwei/qlang/cl"
+	_ "github.com/xushiwei/qlang/lib/qlang.all"
 )

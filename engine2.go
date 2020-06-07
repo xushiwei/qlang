@@ -6,10 +6,10 @@ import (
 	"reflect"
 
 	"github.com/qiniu/text/tpl/interpreter"
+	qlang "github.com/xushiwei/qlang/spec"
 
-	qlangv2 "github.com/qiniu/qlang/cl"
-	"github.com/qiniu/qlang/exec"
-	"github.com/qiniu/qlang/spec"
+	qlangv2 "github.com/xushiwei/qlang/cl"
+	"github.com/xushiwei/qlang/exec"
 )
 
 // Options represent interpreter options.

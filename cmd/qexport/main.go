@@ -405,7 +405,7 @@ var Exports = map[string]interface{}{
 		outHeadf("import (\n")
 		outHeadf("\t%q\n", pkg)
 		if hasTypeExport {
-			outHeadf("\n\t\"github.com/qiniu/qlang/spec\"\n")
+			outHeadf("\n\t\"github.com/xushiwei/qlang/spec\"\n")
 		}
 		outHeadf(")\n\n")
 	}
@@ -438,7 +438,7 @@ var Exports = map[string]interface{}{
 		if verHasTypeExport[ver] {
 			buf.WriteString("import (\n")
 			buf.WriteString(fmt.Sprintf("\t%q\n\n", bp.ImportPath))
-			buf.WriteString(fmt.Sprintf("\t%q\n", "github.com/qiniu/qlang/spec"))
+			buf.WriteString(fmt.Sprintf("\t%q\n", "github.com/xushiwei/qlang/spec"))
 			buf.WriteString(")\n")
 		} else {
 			buf.WriteString(fmt.Sprintf("import %q\n", bp.ImportPath))

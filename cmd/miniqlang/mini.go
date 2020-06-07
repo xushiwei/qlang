@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/qiniu/qlang"
-	_ "github.com/qiniu/qlang/lib/builtin" // 导入 builtin 包
+	"github.com/xushiwei/qlang"
+	_ "github.com/xushiwei/qlang/lib/builtin" // 导入 builtin 包
 )
 
 // -----------------------------------------------------------------------------

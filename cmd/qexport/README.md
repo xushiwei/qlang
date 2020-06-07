@@ -4,7 +4,7 @@ The Q Language Export Tool
 Export go package to qlang module
 
 
-The Q Language : https://github.com/qiniu/qlang
+The Q Language : https://github.com/xushiwei/qlang
 
 
 Usages:
@@ -48,7 +48,7 @@ package runtime
 import (
 	"runtime"
 
-	"github.com/qiniu/qlang/spec"
+	"github.com/xushiwei/qlang/spec"
 )
 
 // Exports is the export table of this module.

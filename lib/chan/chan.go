@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/qiniu/qlang/spec"
-	"github.com/qiniu/qlang/spec/types"
+	qlang "github.com/xushiwei/qlang/spec"
+	"github.com/xushiwei/qlang/spec/types"
 )
 
 // -----------------------------------------------------------------------------
