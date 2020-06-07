@@ -1,8 +1,8 @@
 package qlang
 
 import (
-	"github.com/qiniu/qlang/exec"
-	qlang "github.com/qiniu/qlang/spec"
+	"github.com/xushiwei/qlang/exec"
+	qlang "github.com/xushiwei/qlang/spec"
 )
 
 // -----------------------------------------------------------------------------

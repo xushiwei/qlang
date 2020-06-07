@@ -5,8 +5,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/qiniu/qlang"
-	_ "github.com/qiniu/qlang/lib/builtin" // 导入 builtin 包
+	"github.com/xushiwei/qlang"
+	_ "github.com/xushiwei/qlang/lib/builtin" // 导入 builtin 包
 )
 
 // -----------------------------------------------------------------------------
@@ -17,7 +17,7 @@ var strings_Exports = map[string]interface{}{
 
 func main() {
 
-	qlang.Import("strings",	strings_Exports) // 导入一个自定义的包，叫 strings（和标准库同名）
+	qlang.Import("strings", strings_Exports) // 导入一个自定义的包，叫 strings（和标准库同名）
 	ql := qlang.New()
 
 	err := ql.SafeEval(`x = strings.replacer("?", "!").replace("hello, world???")`)

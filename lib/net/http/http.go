@@ -3,7 +3,7 @@ package http
 import (
 	"net/http"
 
-	qlang "github.com/qiniu/qlang/spec"
+	qlang "github.com/xushiwei/qlang/spec"
 )
 
 // -----------------------------------------------------------------------------

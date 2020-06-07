@@ -2,7 +2,8 @@ package exec
 
 import (
 	"testing"
-	"github.com/qiniu/qlang/lib/builtin"
+
+	"github.com/xushiwei/qlang/lib/builtin"
 )
 
 // -----------------------------------------------------------------------------
@@ -111,4 +112,3 @@ func TestCallFnv(t *testing.T) {
 }
 
 // -----------------------------------------------------------------------------
-

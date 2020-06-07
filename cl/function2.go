@@ -2,7 +2,7 @@ package qlang
 
 import (
 	"github.com/qiniu/text/tpl/interpreter.util"
-	"github.com/qiniu/qlang/exec"
+	"github.com/xushiwei/qlang/exec"
 )
 
 // -----------------------------------------------------------------------------

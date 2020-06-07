@@ -3,9 +3,9 @@ package qlang_test
 import (
 	"testing"
 
-	"github.com/qiniu/qlang"
-	_ "github.com/qiniu/qlang/lib/builtin"
-	ql "github.com/qiniu/qlang/spec"
+	"github.com/xushiwei/qlang"
+	_ "github.com/xushiwei/qlang/lib/builtin"
+	ql "github.com/xushiwei/qlang/spec"
 )
 
 // -----------------------------------------------------------------------------

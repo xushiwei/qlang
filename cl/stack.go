@@ -3,7 +3,7 @@ package qlang
 import (
 	"strconv"
 
-	"github.com/qiniu/qlang/exec"
+	"github.com/xushiwei/qlang/exec"
 )
 
 // -----------------------------------------------------------------------------

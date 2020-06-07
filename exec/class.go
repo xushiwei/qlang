@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strings"
 
-	qlang "github.com/qiniu/qlang/spec"
+	qlang "github.com/xushiwei/qlang/spec"
 )
 
 var (

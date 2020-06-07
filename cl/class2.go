@@ -5,7 +5,7 @@ import (
 
 	ipt "github.com/qiniu/text/tpl/interpreter"
 	"github.com/qiniu/text/tpl/interpreter.util"
-	"github.com/qiniu/qlang/exec"
+	"github.com/xushiwei/qlang/exec"
 )
 
 // -----------------------------------------------------------------------------

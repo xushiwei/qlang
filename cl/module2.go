@@ -9,7 +9,7 @@ import (
 	"syscall"
 
 	"github.com/qiniu/text/tpl/interpreter"
-	"github.com/qiniu/qlang/exec"
+	"github.com/xushiwei/qlang/exec"
 )
 
 // -----------------------------------------------------------------------------
